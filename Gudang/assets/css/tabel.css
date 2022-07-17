@@ -1,0 +1,52 @@
+body {
+    font-family: 'system-ui', -apple-system;
+}
+
+table {
+    width: 1060px;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+.row-head {
+    background-color: #4fc3f7;
+    height: 40px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.row-data {
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.row-input {
+    text-align: center;
+    height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #00e676;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    
+}
+.table-foot {
+    position: sticky;
+    bottom: 0;
+}
+
+.input-link {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+}
+
+.row-input:hover {
+    background-color: #00b248;
+}
